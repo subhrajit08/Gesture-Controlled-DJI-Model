@@ -61,12 +61,24 @@ bash
 Copy
 Edit
 python signDataset.py
+
 2. Model Training (training.ipynb)
-Open the Jupyter Notebook.
+---
+The model was trained using the collected gesture dataset.  
+Training ran for ~60 epochs with the following results:
 
-Train the model with your collected dataset.
+- **Final Training Accuracy:** ~99%  
+- **Final Test Accuracy:** ~99%  
+- **Loss steadily decreased** with no major signs of overfitting.
 
-The best model weights are saved as best_gesture_model.pth.
+### Training Curves
+Below are the training curves for **Loss** and **Accuracy**:
+
+<img width="1222" height="624" alt="image" src="https://github.com/user-attachments/assets/655b7b2e-e82c-482e-8c59-e878d1fccf5b" />
+
+
+---
+
 
 3. Live Gesture Detection (liveDetect.py)
 Run the live detection script to recognize gestures in real-time.
