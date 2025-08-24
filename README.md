@@ -78,15 +78,20 @@ Copy
 Edit
 python liveDetect.py
 ✅ Example Gestures
-✊ Fist → Takeoff
 
-✋ Open Palm → Land
+👆 → Up / TakeOff
 
-👆 Pointing → Move Forward
+👎 → Down / Land
 
-👉 Right Gesture → Move Right
+✊ → Come Forward
 
-👈 Left Gesture → Move Left
+✋ → Stop
+
+👉 → Left
+
+🫲 → Right
+
+🤘 → SIde Flip
 
 (Modify gesture mappings as needed in liveDetect.py)
 
