@@ -1,0 +1,1 @@
+feature = feature.transpose(2, 0, 1)
