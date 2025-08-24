@@ -106,6 +106,29 @@ python liveDetect.py
 
 (Modify gesture mappings as needed in liveDetect.py)
 
+## ⚙️ Steps to Implement Gesture Control on Tello
+1. Install DJI Tello Python Library
+pip install djitellopy
+
+2. Connect to the Tello Drone
+
+Power on your Tello drone.
+
+Connect your computer to Tello’s Wi-Fi (SSID usually TELLO-xxxxxx).
+
+Test connection with the following script:
+
+from djitellopy import Tello
+
+tello = Tello()
+tello.connect()
+
+print(f"Battery: {tello.get_battery()}%")
+
+3. Integrate with Your Gesture Detection
+
+In your liveDetect.py, after detecting a gesture, map it to drone commands.
+
 📌 Future Improvements
 Add more robust gesture datasets.
 
