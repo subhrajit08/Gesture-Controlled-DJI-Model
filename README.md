@@ -46,7 +46,6 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-(Make sure to include packages like torch, opencv-python, numpy, etc.)
 
 Connect your DJI Drone
 Ensure your drone SDK/API is properly configured.
