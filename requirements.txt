@@ -1,0 +1,9 @@
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+jupyter
+tqdm
+scikit-learn
+python3.13.0
