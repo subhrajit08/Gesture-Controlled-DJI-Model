@@ -125,7 +125,7 @@ If everything is working, you should see the current battery percentage of the d
 ---
 
 ### 3. Integrate with Your Gesture Detection
-In your `liveDetect.py`, after detecting a gesture, map it to drone commands.  
+In `liveDetect.py`, after detecting a gesture, map it to drone commands.  
 
 ---
 
