@@ -102,7 +102,7 @@ python liveDetect.py
 
 🫲 → Right
 
-🤘 → SIde Flip
+🤘 → Turn Backward
 
 (Modify gesture mappings as needed in liveDetect.py)
 
