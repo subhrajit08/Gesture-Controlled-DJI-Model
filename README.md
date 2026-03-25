@@ -1,4 +1,4 @@
-# Gesture-Controlled DJI Model 🚁✋
+# Gesture-Controlled DJI Model
 
 This project implements a **gesture-controlled system** to interact with a DJI drone using hand signs.  
 It includes three main modules:
@@ -8,7 +8,7 @@ It includes three main modules:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── Gestures/ # Folder containing collected gesture images
@@ -25,14 +25,14 @@ It includes three main modules:
 
 ---
 
-## 🚀 Features
+## Features
 - **Collect custom gesture datasets** using your webcam.  
 - **Train deep learning models** for hand sign recognition.  
 - **Perform real-time detection** and control a DJI drone.  
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
 ```bash
@@ -50,7 +50,7 @@ Ensure your drone SDK/API is properly configured.
 
 ---
 
-## 📊 Workflow
+## Workflow
 
 ### 1. Data Collection (`signDataset.py`)
 Run the script to capture hand gesture images from your webcam.  
@@ -85,7 +85,7 @@ The drone responds to recognized hand signs.
 python liveDetect.py
 ```
 
-✅ Example Gestures  
+Example Gestures  
 
 - 👆 → Up / TakeOff  
 - 👎 → Down / Land  
@@ -99,7 +99,7 @@ python liveDetect.py
 
 ---
 
-## ⚙️ Steps to Implement Gesture Control on Tello
+## Steps to Implement Gesture Control on Tello
 
 ### 1. Install DJI Tello Python Library
 ```bash
@@ -129,17 +129,17 @@ In `liveDetect.py`, after detecting a gesture, map it to drone commands.
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Add more robust gesture datasets.  
 - Improve accuracy with transfer learning.  
 - Extend support for additional drone commands.  
 
 ---
 
-## 📝 License
+## License
 This project is licensed under the MIT License - feel free to use and modify.  
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.  
