@@ -36,7 +36,7 @@ It includes three main modules:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/Gesture-Controlled-DJI-Model.git
+git clone https://github.com/subhrajit08/Gesture-Controlled-DJI-Model.git
 cd Gesture-Controlled-DJI-Model
 ```
 
