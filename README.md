@@ -1,6 +1,6 @@
-# Gesture-Controlled DJI Model
+# Hand Gesture Recognition Model For Drone Control (DJI)
 
-This project implements a **gesture-controlled system** to interact with a DJI drone using hand signs.  
+This project implements a deep learning and computer vision-based **gesture-controlled system** to interact with a DJI drone using hand signs.  
 It includes three main modules:
 1. **Data Collection** → `signDataset.py`  
 2. **Model Training** → `training.ipynb`  
@@ -19,7 +19,7 @@ It includes three main modules:
 ├── liveDetect.py # Real-time gesture detection & control
 ├── signDataset.py # Script for gesture dataset collection
 ├── training.ipynb # Jupyter Notebook for training the model
-├── tempCodeRunnerFile.py # Temporary runner file (can be ignored)
+├── tempCodeRunnerFile.py # Temporary runner file
 └── README.md # Project documentation
 ```
 
@@ -36,8 +36,8 @@ It includes three main modules:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/subhrajit08/Gesture-Controlled-DJI-Model.git
-cd Gesture-Controlled-DJI-Model
+git clone https://github.com/subhrajit08/gesture-recognition-model-for-drone-control.git
+cd gesture-recognition-model-for-drone-control
 ```
 
 2. **Install dependencies**
@@ -45,8 +45,8 @@ cd Gesture-Controlled-DJI-Model
 pip install -r requirements.txt
 ```
 
-3. **Connect your DJI Drone**  
-Ensure your drone SDK/API is properly configured.  
+3. **Connect with DJI Drone**  
+Ensure the drone SDK/API is properly configured.  
 
 ---
 
