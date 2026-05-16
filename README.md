@@ -10,16 +10,16 @@ This project implements a deep learning and computer vision-based **gesture-cont
 ## Project Structure
 
 ```
-├── Gestures/ # Folder containing collected gesture images
-├── pycache/ # Python cache files
-├── GestureModel.pt # Saved PyTorch model
-├── GestureModel.py # Model architecture definition
-├── best_gesture_model.pth # Best trained model weights
-├── liveDetect.py # Real-time gesture detection & control
-├── signDataset.py # Script for gesture dataset collection
-├── training.ipynb # Jupyter Notebook for training the model
-├── tempCodeRunnerFile.py # Temporary runner file
-└── README.md # Project documentation
+├── Gestures/                 # Folder containing collected gesture images
+├── pycache/                  # Python cache files
+├── GestureModel.pt           # Saved PyTorch model
+├── GestureModel.py           # Model architecture definition
+├── best_gesture_model.pth    # Best trained model weights
+├── liveDetect.py             # Real-time gesture detection & control
+├── signDataset.py            # Script for gesture dataset collection
+├── training.ipynb            # Jupyter Notebook for training the model
+├── tempCodeRunnerFile.py     # Temporary runner file
+└── README.md                 # Project documentation
 ```
 
 ---
