@@ -1,7 +1,6 @@
 # Hand Gesture Recognition Model For Drone Control (DJI)
 
-This project implements a deep learning and computer vision-based **gesture-controlled system** to interact with a DJI drone using hand signs.  
-It includes three main modules:
+This project implements a deep learning and computer vision-based **gesture-controlled system** to interact with a DJI drone using hand signs. It includes three main modules:
 1. **Data Collection** → `signDataset.py`  
 2. **Model Training** → `training.ipynb`  
 3. **Live Detection** → `liveDetect.py`
